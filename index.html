@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha_webui</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dock_container">
+            <div class="upper_dock_part">
+               
+            </div>
+            <div class="mid_dock_part">
+                <div class="dock_icons"><i class="fa-solid fa-house active_icon"></i></div>
+                <div class="dock_icons"><i class="fa-solid fa-paper-plane inactive_icon" ></i></div>
+                <div class="dock_icons"><i class="fa-solid fa-inbox inactive_icon" ></i></div>
+                <div class="dock_icons"><i class="fa-solid fa-bell inactive_icon"></i></div>
+                <div class="dock_icons"><i class="fa-solid fa-ellipsis inactive_icon"></i></div>
+            </div>
+            <div class="bottom_dock-part">
+                <div class="dock_icons"><i class="fa-solid fa-gear inactive_icon"></i></div>
+            </div>
+        </div>
+        <div class="sections_holder">
+            <!-- section for holding showing chat history and other -->
+            <div class="section_a">
+
+                <div class="section_a_search-container">
+                    <div class="section_a_search_input">
+                        <input type="text" name="" id="" placeholder="Search .." class="seation_a_search">
+                    </div>
+                    <div class="section_a_search_btn">
+                        <i class="fa-solid fa-magnifying-glass inactive_icon"></i>
+                    </div>
+                </div>
+
+                <div class="section_a_chat_container">
+                    <!-- <div class="section_a_chat_breif_container">
+                        <div class="chat_breif_holder">
+                            <span class="chat_breif">20</span>
+                        </div>
+                    </div> -->
+                    <div class="new_model_chat_container">
+                        <div class="newchat_icon_container">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </div>
+                        <div class="newchat_container">
+                            Start new chat
+                        </div>
+                    </div>
+                    <div class="section_a_chats_holder">
+                        <div class="section_a_chats">
+                            <div class="chat_title">
+                                <span class="chat_model_title">
+                                    Mistral
+                                </span>
+                                <span class="time_of-active">
+                                    3m ago
+                                </span>
+                            </div>
+                            <div class="chat_model_status">
+                                <span class="status_icons"><i class="fa-solid fa-circle model_status_active"></i></span>
+                                active
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="section_b">
+                <div class="chat_header_section">
+                    <div class="section_b_chat_title_holder_container">
+                        <div class="_section_b_chat_title_container">
+                            <div class="chat_model_name_curently_active">
+                                <div class="chat_model_name">
+                                    Phi
+                                </div>
+                                <div class="chat_model_brief_status">
+                                    <span class="status_icons"><i class="fa-solid fa-circle model_status_active"></i></span>
+                                active
+                                </div>
+                            </div>
+                            <div class="chat_model_name-brief_container">
+                                <i class="fa-solid fa-ellipsis inactive_icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat_container" id="chat_container_div">
+                    
+                    <!-- <div class="user_prompt_container_holder">
+                        <div class="user_prompt_container">
+                            <span class="user_name_holder">user_name</span>
+                            <div class="user_prompt">
+                                <span>Hii how are you?</span>
+                            </div>
+                            <div class="user_prompt_other_details">
+                                <span class="user_prompt_time">12:23</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="model_response_container_holder">
+                        <div class="model_response_container">
+                            <span class="model_name_holder">Mistral</span>
+                            <div class="model_response">
+                                <span class="promt_holder_message" id="prompt_message">
+                                    Hey I am fine How can I Assist you !
+                                </span>
+                            </div>
+                            <div class="model_other_details">
+                                <span class="response_time">12:23</span>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+                <div class="chat_input_container">
+                    <div class="user_prompt_input">
+                        <input type="text" name="prompt" id="user_prompt" placeholder="message here">
+                    </div>
+                    <div class="input_mic_container input_icon">
+                        <i class="fa-solid fa-face-smile inactive_icon"></i>
+                    </div>
+                    <div class="input_mic_container input_icon">
+                        <i class="fa-solid fa-microphone inactive_icon"></i>
+                    </div>
+                    <div class="input_send_submit icput_icon" id="input_send_sumbit">
+                        <i class="fa-solid fa-paper-plane inactive_icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/0d194b00b9.js" crossorigin="anonymous"></script>
+<script src="script/main.js"></script>
+
+</html>

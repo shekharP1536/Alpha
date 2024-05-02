@@ -1,3 +1,5 @@
-/index.html
+
 /request.http
 /script.js
+/asset
+.gitignore
