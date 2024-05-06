@@ -48,21 +48,21 @@
                     </div>
                 </div>
 
+                <div class="new_model_chat_container">
+                    <div class="newchat_icon_container">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                    <div class="newchat_container">
+                        Start new chat
+                    </div>
+                </div>
                 <div class="section_a_chat_container">
                     <!-- <div class="section_a_chat_breif_container">
                         <div class="chat_breif_holder">
                             <span class="chat_breif">20</span>
                         </div>
                     </div> -->
-                    <div class="new_model_chat_container">
-                        <div class="newchat_icon_container">
-                            <i class="fa-solid fa-pen-to-square"></i>
-                        </div>
-                        <div class="newchat_container">
-                            Start new chat
-                        </div>
-                    </div>
-                    <div class="section_a_chats_holder">
+                    <div class="section_a_chats_holder" id="section_a_chats_holder">
                         <div class="section_a_chats">
                             <div class="chat_title">
                                 <span class="chat_model_title">
@@ -153,6 +153,20 @@
             <span class="close" id="setting_modal_close_btn">&times;</span>
             <div class="setting_pannel_container">
                 <h3>Setting</h3>
+                <div class="modal_list_fetch">
+                    <button class="modal_fetch_btn" id="modal_fetch_btn">Refresh</button>
+                    <div class="modal_list_container" id="modal_list_container">
+                        <h4>List:</h4>
+                        <div id="list_org_container">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="pull-new_model_div">
+                    <h4>Pull Models</h4>
+                    <input type="text" class="model_pull-input" id="model_pull_name"> 
+                    <button class="pull_model_name_btn" id="pull_model_name_btn">Pull</button>
+                </div> -->
             </div>
         </div>
     </div>
@@ -161,5 +175,4 @@
 <script src="https://kit.fontawesome.com/0d194b00b9.js" crossorigin="anonymous"></script>
 <script src="script/main.js"></script>
 <script src="script/feature.js"></script>
-
 </html>

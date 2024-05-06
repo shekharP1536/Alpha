@@ -9,3 +9,4 @@ $("#setting_modal_close_btn").click(function (e) {
     e.preventDefault();
     $("#setting_overlap_modal").css("display", "none");
 });
+
