@@ -13,14 +13,26 @@
                
             </div>
             <div class="mid_dock_part">
-                <div class="dock_icons"><i class="fa-solid fa-house active_icon"></i></div>
-                <div class="dock_icons"><i class="fa-solid fa-paper-plane inactive_icon" ></i></div>
-                <div class="dock_icons"><i class="fa-solid fa-inbox inactive_icon" ></i></div>
-                <div class="dock_icons"><i class="fa-solid fa-bell inactive_icon"></i></div>
-                <div class="dock_icons"><i class="fa-solid fa-ellipsis inactive_icon"></i></div>
+                <div class="dock_icons"><i class="fa-solid fa-house active_icon"></i>
+                <!-- <span class="tooltip">Home</span> -->
+                </div>
+                <div class="dock_icons"><i class="fa-solid fa-paper-plane inactive_icon" ></i>
+                <!-- <span class="tooltip">Chat</span> -->
+                </div>
+                <div class="dock_icons"><i class="fa-solid fa-inbox inactive_icon" ></i>
+                <!-- <span class="tooltip">Models</span> -->
+                </div>
+                <div class="dock_icons"><i class="fa-solid fa-bell inactive_icon"></i>
+                <!-- <span class="tooltip">Notifiactions</span> -->
+                </div>
+                <div class="dock_icons"><i class="fa-solid fa-ellipsis inactive_icon"></i>
+                    <!-- <span class="tooltip"></span> -->
+                </div>
             </div>
-            <div class="bottom_dock-part">
-                <div class="dock_icons"><i class="fa-solid fa-gear inactive_icon"></i></div>
+            <div class="bottom_dock-part" id="setting_dock_div">
+                <div class="dock_icons"><i class="fa-solid fa-gear inactive_icon"></i>
+                    <!-- <span class="tooltip">Setting</span> -->
+                </div>
             </div>
         </div>
         <div class="sections_holder">
@@ -135,9 +147,19 @@
             </div>
         </div>
     </div>
+
+    <div class="setting_overlap_modal" id="setting_overlap_modal">
+        <div class="setting_modal_content">
+            <span class="close" id="setting_modal_close_btn">&times;</span>
+            <div class="setting_pannel_container">
+                <h3>Setting</h3>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/0d194b00b9.js" crossorigin="anonymous"></script>
 <script src="script/main.js"></script>
+<script src="script/feature.js"></script>
 
 </html>
