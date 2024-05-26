@@ -210,7 +210,9 @@ body {
 }
 
 .chat_header_section {
-    display: flex;
+    /* display: flex;
+     */
+     display: none;
     box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.25);
@@ -221,12 +223,15 @@ body {
     overflow: auto;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: none;
+    /* display: flex; */
     flex-direction: column;
+    /* display: none; */
 }
 
 .chat_input_container {
-    display: flex;
+    /* display: flex; */
+    display: none;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -321,8 +326,8 @@ body {
     margin-right: auto;
 }
 
-.setting_overlap_modal{
-    display: none; /* Hidden by default */
+.setting_overlap_modal ,.newchat_overlap{
+display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
@@ -342,7 +347,14 @@ body {
     border: 1px solid #888;
     width: 40%; /* Could be more or less, depending on screen size */
 }
-
+.newchat_modal_container{
+    border-radius: 15px;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%; /* Could be more or less, depending on screen size */
+}
 .close {
     color: #aaa;
     float: right;
@@ -357,8 +369,10 @@ body {
     cursor: pointer;
   }
   .modal_list_div{
-        padding: 10px 5px;
-        font-family:sans-serif;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family:sans-serif;
   }
   .modal_list_div button{
     margin: 0px 5px;
