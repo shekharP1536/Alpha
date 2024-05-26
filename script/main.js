@@ -6,6 +6,13 @@ var data = {
     "model" : "llama2",
     "stream" : false
 };
+
+function  givechat_request(model){
+    $(".section_a_chats").click(function (e) { 
+        this.jqaa
+        
+    });
+}
 function sendrequest(input) { 
     var url = "http://localhost:11434/api/generate";
     data.prompt = input; // update the prompt with the input value
