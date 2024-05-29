@@ -39,7 +39,7 @@ body {
 }
 
 .dock_container .mid_dock_part,
-.bottom_dock-part {
+.bottom_dock-part ,.upper_dock_part {
     font-size: 25px;
     margin: 10px;
 }
@@ -210,9 +210,8 @@ body {
 }
 
 .chat_header_section {
-    /* display: flex;
-     */
-     display: none;
+    /* display: flex; */
+    display: none;
     box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.25);
@@ -224,13 +223,11 @@ body {
     width: 100%;
     height: 100%;
     display: none;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
-    /* display: none; */
 }
 
 .chat_input_container {
-    /* display: flex; */
     display: none;
     flex-direction: row;
     justify-content: center;

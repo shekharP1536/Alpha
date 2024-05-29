@@ -1,4 +1,3 @@
-console.log('loaded');
 $("#setting_dock_div").click(function (e) { 
     e.preventDefault();
     $("#setting_overlap_modal").css("display", "block");
@@ -43,3 +42,6 @@ $('#search_input_box').keyup(function (e) {
         }
     }
 });
+function notification(message,level,description){
+    
+}

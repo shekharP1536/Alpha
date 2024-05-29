@@ -10,7 +10,11 @@
   <body>
     <div class="container">
       <div class="dock_container">
-        <div class="upper_dock_part"></div>
+        <div class="upper_dock_part" id="user_icon_dock">
+          <div class="dock_icons">
+            <i class="fa-solid fa-circle-user inactive_icon"></i>
+          </div>
+        </div>
         <div class="mid_dock_part">
           <div class="dock_icons">
             <i class="fa-solid fa-house active_icon"></i>
@@ -93,18 +97,18 @@
         </div>
 
         <div class="section_b" id="section_b">
-          <div class="chat_header_section">
+          <div class="chat_header_section" id="chat_header_section">
             <div class="section_b_chat_title_holder_container">
               <div class="_section_b_chat_title_container">
                 <div class="chat_model_name_curently_active">
-                  <div class="chat_model_name">
-                    <span>Phi</span>
+                  <div class="chat_model_name" id="chat_model_name_div">
+                    <span id="chat_model_name">Phi</span>
                   </div>
                   <div class="chat_model_brief_status">
                     <span class="status_icons"
                       ><i class="fa-solid fa-circle model_status_active"></i
                     ></span>
-                    <span>active</span>
+                    <span id="modal_status_current">active</span>
                   </div>
                 </div>
                 <div class="chat_model_name-brief_container">
